@@ -44,11 +44,11 @@ else:
     gen_success = "✅ All QR codes generated successfully"
 
 # ✅ عرض العنوان مع أيقونة QR
-qr_icon_url = "https://api.iconify.design/mdi/qrcode.svg?color=orange" # يمكن تغييره
+qr_icon_url = "https://api.iconify.design/mdi/qrcode.svg?color=blue" # يمكن تغييره
 st.markdown(f"""
     <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: -10px;">
         <img src="{qr_icon_url}" alt="QR Icon" width="40" height="40" style="margin-top: 5px;">
-        <h1 style="color: #ff6b35; margin: 0;">{title}</h1>
+        <h1 style="color: #00BFFF; margin: 0;">{title}</h1>
     </div>
    
 """, unsafe_allow_html=True)
@@ -141,4 +141,5 @@ if st.button(generate_btn):
         )
     else:
         st.warning(warn_empty)
+
 
