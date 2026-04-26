@@ -4,3 +4,4 @@ qrcode[pil]
 Pillow
 arabic-reshaper
 python-bidi
+openpyxl
