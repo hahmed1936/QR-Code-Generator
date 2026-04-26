@@ -1,5 +1,6 @@
 streamlit
 pandas
-qrcode
-arabic_reshaper
-bidi.algorithm
+qrcode[pil]
+Pillow
+arabic-reshaper
+python-bidi
