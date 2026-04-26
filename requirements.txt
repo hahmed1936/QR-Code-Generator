@@ -1,3 +1,5 @@
 streamlit
 pandas
 qrcode
+arabic_reshaper
+bidi.algorithm
